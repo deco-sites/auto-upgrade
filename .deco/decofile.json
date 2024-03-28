@@ -63,32 +63,35 @@
           "__resolveType": "blog/loaders/Blogpost.ts",
           "post": {
             "authors": [],
-            "title": "fff",
+            "title": "fffddd",
             "subtitle": "fff",
             "date": "2024-03-14",
             "slug": "aa",
             "content": "<p>aaaa</p>"
           }
         },
-        "4f0a540dfea3": {
-          "name": "collections/blog/posts/4f0a540dfea3",
-          "__resolveType": "blog/loaders/Blogpost.ts"
-        },
         "61b2d3077d7a": {
           "name": "collections/blog/posts/61b2d3077d7a",
-          "__resolveType": "blog/loaders/Blogpost.ts"
+          "__resolveType": "blog/loaders/Blogpost.ts",
+          "post": {
+            "authors": [],
+            "title": "Teste",
+            "subtitle": "Eshdadas",
+            "date": "2024-03-27",
+            "slug": "ddasdsad",
+            "content": "<p>asdasdas</p>"
+          }
         },
-        "cd6be43704d1": {
-          "name": "collections/blog/posts/cd6be43704d1",
-          "__resolveType": "blog/loaders/Blogpost.ts"
-        },
-        "43edf5af22f9": {
-          "name": "collections/blog/posts/43edf5af22f9",
-          "__resolveType": "blog/loaders/Blogpost.ts"
-        },
-        "f603cef77974": {
-          "name": "collections/blog/posts/f603cef77974",
-          "__resolveType": "blog/loaders/Blogpost.ts"
+        "teste": {
+          "__resolveType": "blog/loaders/Blogpost.ts",
+          "post": {
+            "authors": [],
+            "title": "ffff",
+            "subtitle": "ffff",
+            "date": "2024-03-26",
+            "slug": "ff",
+            "content": "<p>ff</p>"
+          }
         }
       }
     }
