@@ -52,6 +52,47 @@
   "analytics@v0": {
     "__resolveType": "decohub/apps/analytics.ts"
   },
+  "blog": {
+    "__resolveType": "decohub/apps/blog.ts"
+  },
+  "collections": {
+    "blog": {
+      "posts": {
+        "358e4ed4dc9a": {
+          "name": "collections/blog/posts/358e4ed4dc9a",
+          "__resolveType": "blog/loaders/Blogpost.ts",
+          "post": {
+            "authors": [],
+            "title": "fff",
+            "subtitle": "fff",
+            "date": "2024-03-14",
+            "slug": "aa",
+            "content": "<p>aaaa</p>"
+          }
+        },
+        "4f0a540dfea3": {
+          "name": "collections/blog/posts/4f0a540dfea3",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        },
+        "61b2d3077d7a": {
+          "name": "collections/blog/posts/61b2d3077d7a",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        },
+        "cd6be43704d1": {
+          "name": "collections/blog/posts/cd6be43704d1",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        },
+        "43edf5af22f9": {
+          "name": "collections/blog/posts/43edf5af22f9",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        },
+        "f603cef77974": {
+          "name": "collections/blog/posts/f603cef77974",
+          "__resolveType": "blog/loaders/Blogpost.ts"
+        }
+      }
+    }
+  },
   "decohub": {
     "__resolveType": "deco-sites/auto-upgrade/apps/decohub.ts"
   },
@@ -301,8 +342,5 @@
     },
     "platform": "vtex",
     "__resolveType": "deco-sites/auto-upgrade/apps/site.ts"
-  },
-  "blog": {
-    "__resolveType": "decohub/apps/blog.ts"
   }
 }
