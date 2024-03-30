@@ -62,69 +62,16 @@
   "blog": {
     "__resolveType": "decohub/apps/blog.ts"
   },
-  "collections": {
-    "blog": {
-      "authors": {
-        "529ae73afcd7": {
-          "name": "collections/blog/authors/529ae73afcd7",
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "Test",
-            "email": "test@deco.cx"
-          }
-        },
-        "6bb062b5fb69": {
-          "name": "collections/blog/authors/6bb062b5fb69",
-          "__resolveType": "blog/loaders/Author.ts",
-          "author": {
-            "name": "test",
-            "email": "test"
-          }
-        }
-      },
-      "posts": {
-        "79fcda37456d": {
-          "name": "collections/blog/posts/79fcda37456d",
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [],
-            "title": "Zeedog Toy",
-            "subtitle": "This is a blog subtitle for zeedog ",
-            "date": "2024-03-28",
-            "slug": "zeedog",
-            "content": "<p><img src=\"https://lh3.googleusercontent.com/a/ACg8ocKeDRbuttaf-WIN_RqOu_xGZNipwxPA30bkFvv-GFTyOw=s96-c\" alt=\"Héricles Emanuel Gomes da Silva\"></p>\n<h1>Discover the Ultimate Toy for Your Furry Friend!</h1>\n<p>As dog lovers, we always want to find the best ways to keep our canine companions <i>happy</i> and <b>entertained</b>. That's why today, I'm <u>excited</u> to introduce you to a <b>fantastic new toy</b> that's perfect for your dog!</p>\n\n<h2>A Toy That Stands Out</h2>\n<p>This innovative dog toy, which I recently discovered, is not just any ordinary plaything. It's designed with your pet's happiness and safety in mind, crafted from <b>durable materials</b> to withstand even the most enthusiastic play.</p>\n\n<h2>Why Your Dog Will Love It</h2>\n<ul>\n  <li><i>Engaging design</i> that stimulates your dog's instincts to chase and fetch.</li>\n  <li>Great for <u>dental health</u>, as the texture helps clean teeth during play.</li>\n  <li>Just the right size for <b>dogs of all breeds</b>!</li>\n</ul>\n\n<h2>Perfect for Playtime Anytime</h2>\n<ol>\n  <li>Lightweight and easy to carry.</li>\n  <li>Provides hours of fun at home or in the park.</li>\n  <li>A great way for you to <i>bond</i> with your dog.</li>\n</ol>\n\n<p>So, if you're looking for a way to keep your dog <b>active</b>, <i>entertained</i>, and healthy, this is the perfect toy for you. Check it out <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://yourlinktotheproduct.com\">here</a>!</p>\n<p><u>Happy playing!</u></p>\n"
-          }
-        },
-        "878351830e19": {
-          "name": "collections/blog/posts/878351830e19",
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [
-              {
-                "name": "A",
-                "email": "A"
-              }
-            ],
-            "title": "AA",
-            "subtitle": "AAAA",
-            "date": "2024-03-20",
-            "slug": "a-slug",
-            "content": "<p><strong><em>sadsadasd</em></strong></p>"
-          }
-        },
-        "eaf2c5328aba": {
-          "name": "collections/blog/posts/eaf2c5328aba",
-          "__resolveType": "blog/loaders/Blogpost.ts",
-          "post": {
-            "authors": [],
-            "title": "sdsadadsdds",
-            "subtitle": "sadsadsaasdsa",
-            "date": "2024-03-17",
-            "slug": "dasdsad",
-            "content": "<p></p>"
-          }
-        }
-      }
+  "collections/blog/posts/71e4ddac18f2": {
+    "name": "collections/blog/posts/71e4ddac18f2",
+    "__resolveType": "blog/loaders/Blogpost.ts",
+    "post": {
+      "authors": [],
+      "title": "Teste",
+      "subtitle": "Titulo Teste",
+      "date": "2024-03-30",
+      "slug": "slug",
+      "content": "<h3>Tiptap</h3><p>my name is héricles...</p><pre><code>i do code</code></pre><p></p>"
     }
   },
   "decohub": {
@@ -144,56 +91,7 @@
           },
           "value": [
             {
-              "font": {
-                "fonts": [
-                  {
-                    "family": "Poppins",
-                    "variations": [
-                      {
-                        "weight": "400"
-                      },
-                      {
-                        "weight": "600"
-                      },
-                      {
-                        "weight": "700"
-                      }
-                    ]
-                  }
-                ],
-                "__resolveType": "website/loaders/fonts/googleFonts.ts"
-              },
-              "fonts": [
-                {
-                  "fontFamily": "Poppins"
-                }
-              ],
-              "mainColors": {
-                "neutral": "#f9f9f9",
-                "primary": "#ffffff",
-                "warning": "#e08e00",
-                "base-100": "#ffffff",
-                "tertiary": "#02F67C",
-                "secondary": "#113032"
-              },
-              "buttonStyle": {
-                "--border-btn": "1px",
-                "--rounded-btn": "0.2rem",
-                "--animation-btn": "0.25s",
-                "--btn-text-case": "normal-case",
-                "--btn-focus-scale": "0.95"
-              },
-              "colorScheme": "dark",
-              "otherStyles": {
-                "--tab-border": "1px",
-                "--tab-radius": "0.5rem",
-                "--rounded-box": "1rem",
-                "--rounded-badge": "1.9rem",
-                "--animation-input": "0.2s"
-              },
-              "__resolveType": "deco-sites/auto-upgrade/sections/Theme/Theme.tsx"
-            },
-            {
+              "__resolveType": "deco-sites/auto-upgrade/sections/Header/Header.tsx",
               "logo": {
                 "alt": "deco.cx",
                 "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/72a07909-2a8c-4d0b-ae4e-ac2b100742ee",
@@ -230,10 +128,10 @@
                   "children": []
                 }
               ],
-              "logoPosition": "left",
-              "__resolveType": "deco-sites/auto-upgrade/sections/Header/Header.tsx"
+              "logoPosition": "left"
             },
             {
+              "__resolveType": "deco-sites/auto-upgrade/sections/Content/Hero.tsx",
               "cta": [
                 {
                   "href": "https://deco.cx",
@@ -248,10 +146,11 @@
               ],
               "title": "<h1>Medium length</h1><h1><span style=\"color: rgb(2, 246, 124);\" data-mce-style=\"color: rgb(2, 246, 124);\">hero headline</span></h1><h1>goes here</h1>",
               "placement": "left",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "__resolveType": "deco-sites/auto-upgrade/sections/Content/Hero.tsx"
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
+              "title": "Discover our Features",
+              "__resolveType": "deco-sites/auto-upgrade/sections/Content/Features.tsx",
               "cards": [
                 {
                   "icon": "Star",
@@ -278,17 +177,15 @@
                   "text": "Integrated real-time analytics to identify the greatest opportunities to boost conversions.",
                   "title": "<p>Analyze your data</p>"
                 }
-              ],
-              "title": "Discover our Features",
-              "__resolveType": "deco-sites/auto-upgrade/sections/Content/Features.tsx"
+              ]
             },
             {
+              "title": "Lorem ipsum dolor sit amet consectetur. Egestas nec erat lorem ante aliquam suspendisse.",
+              "__resolveType": "deco-sites/auto-upgrade/sections/Content/ImageSection.tsx",
               "cta": {},
               "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/530/bb27c3a6-7aa4-43a6-9e14-ad5af53a441f",
-              "title": "Lorem ipsum dolor sit amet consectetur. Egestas nec erat lorem ante aliquam suspendisse.",
               "placement": "right",
-              "description": "Don’t start from scratch. With our intuitive visual editor, embrace rapid design and deployment using pre-built, universally adaptable UI components.",
-              "__resolveType": "deco-sites/auto-upgrade/sections/Content/ImageSection.tsx"
+              "description": "Don’t start from scratch. With our intuitive visual editor, embrace rapid design and deployment using pre-built, universally adaptable UI components."
             },
             {
               "cta": {},
@@ -327,11 +224,14 @@
                   "variant": "Reverse"
                 }
               ],
-              "text": "Lorem ipsum dolor sit amet consectetur.",
-              "__resolveType": "deco-sites/auto-upgrade/sections/Content/CallToAction.tsx"
+              "__resolveType": "deco-sites/auto-upgrade/sections/Content/CallToAction.tsx",
+              "text": "Lorem ipsum dolor sit amet consectetur."
             },
             {
               "__resolveType": "deco-sites/auto-upgrade/sections/Footer/Footer.tsx"
+            },
+            {
+              "__resolveType": "Theme"
             }
           ]
         }
@@ -376,5 +276,33 @@
     },
     "platform": "vtex",
     "__resolveType": "deco-sites/auto-upgrade/apps/site.ts"
+  },
+  "My Block": {
+    "__resolveType": "deco-sites/auto-upgrade/sections/Category/CategoryGrid.tsx",
+    "list": [],
+    "layout": {
+      "headerAlignment": "center",
+      "categoryCard": {
+        "textPosition": "top",
+        "textAlignment": "center"
+      }
+    },
+    "header": {
+      "title": "aaa",
+      "description": "aaaaaaa"
+    }
+  },
+  "pages-My%20New%20Page-287622": {
+    "name": "My New Page",
+    "path": "/example-path",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "bloquee": {
+    "__resolveType": "deco-sites/auto-upgrade/sections/Content/Hero.tsx",
+    "placement": "left",
+    "cta": [],
+    "description": "Content!",
+    "title": "<p>Content Hero!</p>"
   }
 }
